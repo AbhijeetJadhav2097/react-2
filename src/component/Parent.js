@@ -11,6 +11,10 @@ class Parent extends Component{
            <Component1 food='Shevbhaji' />
            <Component1 food='Chicken' />
            <Component1 food='Fish' />
+           <Component1 food='Dolphin' />
+           <Component1 food='Dolphin' />
+           <Component1 food='Dolphin' />
+           <Component1 food='Dolphin' />
            </>
         )
     }
