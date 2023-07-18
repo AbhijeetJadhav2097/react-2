@@ -7,14 +7,11 @@ class Parent extends Component{
         return(
             <>
            <h2>Abhijeet</h2>
-           <Component1 food='Pavbhaji' />
-           <Component1 food='Shevbhaji' />
-           <Component1 food='Chicken' />
-           <Component1 food='Fish' />
-           <Component1 food='Dolphin' />
-           <Component1 food='Dolphin' />
-           <Component1 food='Dolphin' />
-           <Component1 food='Dolphin' />
+           <Component1 food='Pavbhaji' bgColor='red'/>
+           <Component1 food='Shevbhaji' bgColor='skyblue' />
+           <Component1 food='Chicken' bgColor='green'/>
+           <Component1 food='Fish' bgColor='yellow'/>
+           <Component1 food='Dolphin' bgColor='skyblue'/> 
            </>
         )
     }

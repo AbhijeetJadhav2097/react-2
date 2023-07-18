@@ -7,10 +7,11 @@ class Component1 extends React.Component{
     }
 
  render(){
-    const{food} = this.props
+    const{food, bgColor} = this.props
+    // let pStyle = {backgroundColor : 'skyblue'}
     return(
-         <p>I love {this.props.food}</p>
-    )
+         <p style = {{backgroundColor:bgColor}}>I love {food}</p>
+    )       
  }
 }
 
